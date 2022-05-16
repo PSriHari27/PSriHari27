@@ -4,6 +4,14 @@
 "adminusername":{
 "type":"string",
 "metadata":{
-"description":"Admin Username for the VM"
-}}
-}}
+"description":"Admin Username for the VM"}
+},
+  "adminpassword":{
+"type":"securestring",
+    "minlength":12
+"metadata":{
+"description":"Admin Password for the VM"
+}
+}
+}
+}
