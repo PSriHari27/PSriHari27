@@ -1,0 +1,9 @@
+{
+"parameters":
+{
+"adminusername":{
+"type":"string",
+"metadata":{
+"description":"Admin Username for the VM"
+}}
+}}
